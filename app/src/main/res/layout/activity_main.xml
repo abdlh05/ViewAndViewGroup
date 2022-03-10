@@ -24,6 +24,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/TextContent.Small.White"
                 android:layout_gravity="bottom"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"
@@ -42,6 +43,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/TextContent.Black"
             android:textSize="32sp"
             android:text="@string/dummy_value"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
@@ -54,6 +56,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/TextContent.Subtitle"
             android:text="@string/stock"
             android:textSize="12sp"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
@@ -64,6 +67,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/TextContent"
             android:text="@string/content_text"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
@@ -74,6 +78,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/TextContent.Subtitle"
             android:text="@string/specification"
             android:textSize="12sp"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
@@ -98,6 +103,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    style="@style/TextSpec.Field"
                     android:textSize="14sp"
                     android:layout_marginRight="@dimen/activity_vertical_margin"
                     android:text="Display"/>
@@ -106,6 +112,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    style="@style/TextSpec.Value"
                     android:textSize="14sp"
                     android:layout_weight="1"
                     android:text="@string/content_specs_display"
@@ -122,6 +129,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    style="@style/TextSpec.Field"
                     android:textSize="14sp"
                     android:layout_marginRight="@dimen/activity_vertical_margin"
                     android:text="Size"/>
@@ -130,6 +138,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    style="@style/TextSpec.Value"
                     android:textSize="14sp"
                     android:layout_weight="1"
                     android:text="@string/content_specs_size"
@@ -146,6 +155,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    style="@style/TextSpec.Field"
                     android:textSize="14sp"
                     android:layout_marginRight="@dimen/activity_vertical_margin"
                     android:text="Battery"/>
@@ -154,6 +164,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    style="@style/TextSpec.Value"
                     android:textSize="14sp"
                     android:layout_weight="1"
                     android:text="@string/content_specs_battery"
@@ -164,6 +175,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/TextContent.Subtitle"
             android:text="Dijual oleh"
             android:textSize="12sp"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
@@ -191,6 +203,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                style="@style/TextContent"
                 android:layout_toRightOf="@id/profile_image"
                 android:text="@string/my_name"
                 android:textColor="@android:color/black"
