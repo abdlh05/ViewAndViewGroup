@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/purple_200"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -99,7 +100,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp">
 
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -110,13 +110,14 @@
 
 
                 <TextView
+                    style="@style/TextSpec.Value"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    style="@style/TextSpec.Value"
-                    android:textSize="14sp"
                     android:layout_weight="1"
                     android:text="@string/content_specs_display"
-                    android:textColor="@android:color/black"/>
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
             </TableRow>
 
 
@@ -214,8 +215,8 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/ButtonGeneral"/>
-        android:text="Beli"
+            style="@style/ButtonGeneral"
+            android:text="Beli"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:layout_marginBottom="@dimen/activity_vertical_margin"/>
